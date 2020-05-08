@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Raleway;
+}
+
+nav {
+  height: 70px;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+nav h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.site-nav {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+}
+
+.site-nav li {
+  margin-right: 10px;
+}
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 30px;
+}
+.social-icons li {
+  margin-left: 30px;
+}
+.social-icons img {
+  height: 20px;
+  width: 20px;
+}
+
+header {
+  background-color: pink;
+  height: 520px;
+  font-size: 48px;
+  line-height: 56px;
+  padding: 0 120px;
+  display: flex;
+  align-items: center;
+  color: #2d2d2d;
+}
+header p {
+  width: 70%;
+}
+section {
+  height: 700px;
+  margin-bottom: 126px;
+}
+.top-row,
+.bottom-row {
+  display: flex;
+}
+.top-row img,
+.bottom-row img {
+  width: 50%;
+  height: 350px;
+}
+.split {
+  display: flex;
+}
+.split p {
+  width: 50%;
+  margin: 10px;
+}
+h3 {
+  margin-bottom: 45px;
+}
